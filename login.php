@@ -46,10 +46,10 @@ if (!$username || !$password || !$role) {
     exit();
 }
 
-$host   = 'localhost';
-$dbname = 'stlaf_db';
-$dbuser = 'root';
-$dbpass = '';
+$host   = 'bchbyrvggka3okcjwmwv-mysql.services.clever-cloud.com';
+$dbname = 'bchbyrvggka3okcjwmwv';
+$dbuser = 'usdkgqrlhm5iiwtk';
+$dbpass = 'dKzvf9Ns0GxUH041q5Hd';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $dbuser, $dbpass);
