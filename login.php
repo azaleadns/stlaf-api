@@ -271,3 +271,4 @@ echo json_encode([
         'position'   => $user['position'] ?? ''
     ]
 ]);
+}
