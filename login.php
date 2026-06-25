@@ -1,4 +1,10 @@
 <?php
+/**
+ * file: login.php
+ * author: Iya
+ * date: June 25, 2026
+ * purpose: Validates employee credentials and issues sessions/access context configurations based on organizational roles.
+ */
 $allowedOrigins = [
     'http://localhost:5173',
     'http://127.0.0.1:5173',
@@ -114,13 +120,13 @@ else {
     exit();
 }
 
-if (!$user) {
-    echo json_encode([
-        'success' => false,
-        'message' => 'User not found.'
-    ]);
-    exit();
-}
+    if (!$user) {
+        echo json_encode([
+            'success' => false,
+            'message' => 'User not found.'
+        ]);
+        exit();
+    }
 
 // ==========================================
 // VERIFY PASSWORD
@@ -141,12 +147,12 @@ if ($dbPassword !== '') {
 }
 
 if (!$isPasswordValid) {
-    echo json_encode([
-        'success' => false,
-        'message' => 'Invalid password.'
-    ]);
-    exit();
-}
+        echo json_encode([
+            'success' => false,
+            'message' => 'Invalid password.'
+        ]);
+        exit();
+    }
 
 // ==========================================
 // SUCCESS RESPONSE

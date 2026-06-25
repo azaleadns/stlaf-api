@@ -1,4 +1,10 @@
 <?php
+/**
+ * file: update_ot.php
+ * author: Iya
+ * date: June 25, 2026
+ * purpose: Modifies hours or operational parameters on existing overtime tracking files.
+ */
 include 'cors.php';
 include 'db_config.php';
 

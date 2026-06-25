@@ -1,4 +1,10 @@
 <?php
+/**
+ * file: get_admin_data.php
+ * author: Iya
+ * date: June 25, 2026
+ * purpose: Fetches restricted summary lists and logs for payroll management and superadmin control dashboards.
+ */
 header('Content-Type: application/json; charset=utf8mb4');
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: GET, POST, OPTIONS');

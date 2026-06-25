@@ -1,3 +1,8 @@
+# file: dockerfile
+# author: Iya
+# date: June 25, 2026
+# purpose: Defines the containerization configurations for consistent virtual deployment environments of the PHP API.
+
 # Gamitin ang official PHP Apache image
 FROM php:8.2-apache
 

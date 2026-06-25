@@ -1,4 +1,10 @@
 <?php
+/**
+ * file: get_stats.php
+ * author: Iya
+ * date: June 25, 2026
+ * purpose: Compiles high-level statistical tallies, breakdown ratios, and tracking matrices for administrative analysis.
+ */
 include 'cors.php';
 include 'db_config.php';
 

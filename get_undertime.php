@@ -1,4 +1,10 @@
 <?php
+/**
+ * file: get_undertime.php
+ * author: Iya
+ * date: June 25, 2026
+ * purpose: Pulls validated records of undertime and half-day logs across employee profiles.
+ */
 include 'cors.php';
 include 'db_config.php';
 

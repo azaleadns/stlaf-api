@@ -1,4 +1,10 @@
 <?php
+/**
+ * file: update_leave.php
+ * author: Iya
+ * date: June 25, 2026
+ * purpose: Modifies specific details of an existing leave application before final tracking locks.
+ */
 include 'cors.php';
 include 'db_config.php';
 

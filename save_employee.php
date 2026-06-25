@@ -1,4 +1,10 @@
 <?php
+/**
+ * file: save_employee.php
+ * author: Iya
+ * date: June 25, 2026
+ * purpose: Registers new active staff profile data directly into the central user allocation directory tables.
+ */
 include 'cors.php';
 include 'db_config.php';
 

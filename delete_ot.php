@@ -1,4 +1,10 @@
 <?php
+/**
+ * file: delete_ot.php
+ * author: Iya
+ * date: June 25, 2026
+ * purpose: Purges cancelled or incorrect overtime tracking items from the operational data matrix.
+ */
 include 'cors.php';
 include 'db_config.php';
 

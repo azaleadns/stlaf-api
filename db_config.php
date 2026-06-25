@@ -1,4 +1,10 @@
 <?php
+/**
+ * file: db_config.php
+ * author: Iya
+ * date: June 25, 2026
+ * purpose: Establishes the database environment credentials and opens a secure connection to the central MySQL database system.
+ */
 // 1. CORS Headers
 header("Access-Control-Allow-Origin: *");  
 header("Access-Control-Allow-Methods: GET, POST, OPTIONS"); 

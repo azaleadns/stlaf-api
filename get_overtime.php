@@ -1,4 +1,10 @@
 <?php
+/**
+ * file: get_overtime.php
+ * author: Iya
+ * date: June 25, 2026
+ * purpose: Collects accumulated overtime transaction logs and hourly summaries for auditing and payroll integration.
+ */
 include 'cors.php';
 include 'db_config.php';
 

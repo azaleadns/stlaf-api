@@ -1,4 +1,10 @@
 <?php
+/**
+ * file: save_ot.php
+ * author: Iya
+ * date: June 25, 2026
+ * purpose: Adds new overtime work applications into transactional authorization pipelines.
+ */
 include 'cors.php';
 include 'db_config.php';
 

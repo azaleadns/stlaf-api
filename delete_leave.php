@@ -1,4 +1,10 @@
 <?php
+/**
+ * file: delete_leave.php
+ * author: Iya
+ * date: June 25, 2026
+ * purpose: Permanently or softly drops selected leave transaction lines out of active storage rows.
+ */
 include 'cors.php';
 include 'db_config.php';
 

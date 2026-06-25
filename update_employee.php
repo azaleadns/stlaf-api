@@ -1,4 +1,10 @@
 <?php
+/**
+ * file: update_employee.php
+ * author: Iya
+ * date: June 25, 2026
+ * purpose: Updates existing employee profile metadata and structural configuration settings in the database.
+ */
 include 'cors.php';
 include 'db_config.php';
 

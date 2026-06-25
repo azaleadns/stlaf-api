@@ -1,4 +1,10 @@
 <?php
+/**
+ * file: get_approvals.php
+ * author: Iya
+ * date: June 25, 2026
+ * purpose: Pulls active pending submission rows assigned to specific managers for verification or decision updates.
+ */
 include 'cors.php';
 include 'db_config.php';
 

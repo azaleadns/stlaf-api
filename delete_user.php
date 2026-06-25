@@ -1,4 +1,10 @@
 <?php
+/**
+ * file: delete_user.php
+ * author: Iya
+ * date: June 25, 2026
+ * purpose: Deactivates or drops administrative user credentials and system registries securely from data tables.
+ */
 // 1. Force JSON and CORS Headers
 header("Content-Type: application/json; charset=utf8mb4");
 header("Access-Control-Allow-Origin: *");  

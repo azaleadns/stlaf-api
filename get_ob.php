@@ -1,4 +1,10 @@
 <?php
+/**
+ * file: get_ob.php
+ * author: Iya
+ * date: June 25, 2026
+ * purpose: Fetches specific official business and field-duty assignment sheets from database registries.
+ */
 include 'cors.php';
 include 'db_config.php';
 

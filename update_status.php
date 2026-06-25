@@ -1,4 +1,10 @@
 <?php
+/**
+ * file: update_status.php
+ * author: Iya
+ * date: June 25, 2026
+ * purpose: Commits formal workflow approvals, disapprovals, or structural adjustments across active request rows.
+ */
 include 'cors.php';
 include 'db_config.php';
 

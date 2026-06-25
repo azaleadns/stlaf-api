@@ -1,4 +1,10 @@
 <?php
+/**
+ * file: save_leave.php
+ * author: Iya
+ * date: June 25, 2026
+ * purpose: Processes and stores incoming employee leave requests into relational storage tracking lines.
+ */
 include 'cors.php';
 include 'db_config.php';
 

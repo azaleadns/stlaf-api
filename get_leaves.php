@@ -1,4 +1,10 @@
 <?php
+/**
+ * file: get_leaves.php
+ * author: Iya
+ * date: June 25, 2026
+ * purpose: Retrieves documented historical logs and remaining balances for employee leave filings.
+ */
 include 'cors.php';
 include 'db_config.php';
 
