@@ -5,6 +5,9 @@
  * date: June 25, 2026
  * purpose: Validates employee credentials and issues sessions/access context configurations based on organizational roles.
  */
+// ============================================
+// CORS Headers Configuration
+// ============================================
 $allowedOrigins = [
     'https://stlaf-leave.vercel.app',
     'http://localhost:5173',
@@ -13,17 +16,21 @@ $allowedOrigins = [
     'http://192.168.137.1:5173',
 ];
 
-$origin = $_SERVER['HTTP_ORIGIN'] ?? '';
+$origin = isset($_SERVER['HTTP_ORIGIN']) ? rtrim($_SERVER['HTTP_ORIGIN'], '/') : '';
 
 if (in_array($origin, $allowedOrigins, true)) {
-    header("Access-Control-Allow-Origin: $origin");
-    header("Access-Control-Allow-Credentials: true");
+    header("Access-Control-Allow-Origin: " . $origin);
+} else {
+    // NEVER use '*' here if your frontend uses credentials/cookies
+    header("Access-Control-Allow-Origin: https://stlaf-leave.vercel.app");
 }
 
-header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
-header("Access-Control-Allow-Headers: Content-Type, Authorization");
+header("Access-Control-Allow-Credentials: true");
+header("Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, DELETE");
+header("Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With");
 header("Content-Type: application/json");
 
+// Handle preflight OPTIONS request
 if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     http_response_code(200);
     exit();
